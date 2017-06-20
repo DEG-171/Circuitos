@@ -7,7 +7,7 @@ port( REG_OUT_1,REG_OUT_2,REG_OUT_3,REG_OUT_4,REG_OUT_5,REG_OUT_6,REG_OUT_7,REG_
 		UP_DOWN: in std_logic_vector(3 downto 0);
 		REG_OUT: out std_logic_vector((N-1) downto 0)
 		);
-end mux16x1;
+end mux16x1_REG_OUT;
 
 architecture mux of mux16x1_REG_OUT is
 begin
