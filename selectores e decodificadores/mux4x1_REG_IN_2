@@ -1,5 +1,5 @@
 library ieee;
-use ieee.std_logic_2164.all;
+use ieee.std_logic_1164.all;
 
 entity mux4x1_REG_IN_2 is
 generic(N : natural:= 32);
