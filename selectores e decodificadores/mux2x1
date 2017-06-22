@@ -11,6 +11,6 @@ end mux2x1;
 
 architecture mux of mux2x1 is
 begin
-saida <= entrada1 when sel = "0" else
+saida <= entrada1 when sel = '0'  else
 	entrada2;
 end mux;
